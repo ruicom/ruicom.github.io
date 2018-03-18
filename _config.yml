@@ -68,7 +68,11 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+  #type: git
   #repo: git@github.com:ruicom/ruicom.github.io.git
+- type: git
+  repo: git@github.com:ruicom/ruicom.github.io.git 
+  branch: master
+- type: git
   repo: root@101.236.44.97:/opt/repo/blog.git
   branch: master
